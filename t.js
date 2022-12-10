@@ -15,13 +15,14 @@ findEven(18)
 
 // Câu 3:  Viết một function có tên numberOneTriangle() khi chạy function này, trên màn hình sẽ đưa ra hình sau: 
 
-function umberOneTriangle() {
-    let text ="";
-    for (let i=1 ; i<5 ; i++) {
-        if (i=1) {
-            text += i + "<br>";
+function umberOneTriangle(n) {
+    let text =[];
+    for (let i=1 ; i<=n ; i++) {
+       
+            text += 1;
             console.log(text)
-        }
+        
     }
 }
-// document.getElementsByClassName("random").innerHTML = umberOneTriangle();
+umberOneTriangle(5)
+//document.getElementsByClassName("random").innerHTML = umberOneTriangle();
