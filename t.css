@@ -1,0 +1,12 @@
+.random {
+    width: 100%;
+    height: 100px;
+    
+}
+p:hover {
+    color: yellow;
+    background-color: yellow;
+  }
+.random p {
+    color: yellow;
+}
